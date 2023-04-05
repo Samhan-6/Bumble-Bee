@@ -20,8 +20,7 @@
                 <ul>
                     <li><a href="product.jsp">Products</a></li>
                     <li><a href="about.jsp">About</a></li>
-                    <li><a href="login.jsp">Login</a></li>
-                    <li><a href="index.jsp">Register</a></li>
+                    <li><a href="logout.jsp">Logout</li>
                 </ul>
             </nav>
         </header>
