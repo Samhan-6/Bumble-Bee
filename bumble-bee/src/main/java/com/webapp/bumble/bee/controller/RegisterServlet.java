@@ -19,7 +19,6 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.http.HttpStatus;
 
 
-@WebServlet(name = "RegisterServlet", urlPatterns = {"/register"})
 public class RegisterServlet extends HttpServlet {
     
     private UserService userService = new UserService();
