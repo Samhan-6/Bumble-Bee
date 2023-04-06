@@ -75,6 +75,7 @@ public class UserDAO {
             e.printStackTrace();
         }
         return null;
+        
     }
     
     public User getUserByEmail(String email) {

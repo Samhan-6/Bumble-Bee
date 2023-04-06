@@ -55,7 +55,7 @@ public class AdminDAO {
         }
     }
     
-    public boolean adminLogin(String username, String password) {
+    public boolean adminLogin(Connection connection, String username, String password) {
         boolean success = false;
         try {
             PreparedStatement preparedStatement = connection

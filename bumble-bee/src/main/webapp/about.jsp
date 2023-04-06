@@ -18,7 +18,6 @@
         <nav>
             <a href="home.jsp">Home</a>
             <a href="product.jsp">Products</a>
-            <a href="login.jsp" class="btn">Login</a>
         </nav>
 
         <main>

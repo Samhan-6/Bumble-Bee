@@ -44,7 +44,7 @@
                 <img src="images/img4.jpg" alt="Orange">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
+                    <h2>Orange</h2>                    
                     <div class="product-price">Rs 1,500.00 / KG</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
@@ -54,7 +54,7 @@
                 <img src="images/img5.jpg" alt="Lemon">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
+                    <h2>Lemon</h2>                    
                     <div class="product-price">Rs 300.00 / KG</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
@@ -64,7 +64,7 @@
                 <img src="images/img6.jpg" alt="Pineapple">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
+                    <h2>Pineapple</h2>                    
                     <div class="product-price">RS 700.00 / KG</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
@@ -74,7 +74,7 @@
                 <img src="images/img7.jpg" alt="Guava">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
+                    <h2>Guava</h2>                    
                     <div class="product-price">RS 500.00 / KG</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
@@ -84,7 +84,7 @@
                 <img src="images/img8.jpg" alt="Papaya">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
+                    <h2>Papaya</h2>                    
                     <div class="product-price">RS 650.00 / KG</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
@@ -94,8 +94,8 @@
                 <img src="https://via.placeholder.com/350x250.png" alt="Product Image">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
-                    <div class="product-price">$499.99</div>
+                    <h2>Water Bottle</h2>                    
+                    <div class="product-price">RS 150.00</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -104,8 +104,8 @@
                 <img src="https://via.placeholder.com/350x250.png" alt="Product Image">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
-                    <div class="product-price">$499.99</div>
+                    <h2>Nest Cafe</h2>                    
+                    <div class="product-price">RS 1,500.00</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -114,8 +114,8 @@
                 <img src="https://via.placeholder.com/350x250.png" alt="Product Image">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
-                    <div class="product-price">$499.99</div>
+                    <h2>Ghee</h2>                    
+                    <div class="product-price">RS 300.00</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -124,8 +124,8 @@
                 <img src="https://via.placeholder.com/350x250.png" alt="Product Image">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
-                    <div class="product-price">$499.99</div>
+                    <h2>Milk</h2>                    
+                    <div class="product-price">RS 400.00</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -134,8 +134,8 @@
                 <img src="https://via.placeholder.com/350x250.png" alt="Product Image">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
-                    <div class="product-price">$499.99</div>
+                    <h2>Cheese</h2>                    
+                    <div class="product-price">RS 200.00</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -144,8 +144,8 @@
                 <img src="https://via.placeholder.com/350x250.png" alt="Product Image">
                 <div class="product-details">
                     
-                    <h2>Comfortable Sofa</h2>                    
-                    <div class="product-price">$499.99</div>
+                    <h2>Butter</h2>                    
+                    <div class="product-price">RS 450.00</div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>            

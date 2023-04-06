@@ -11,6 +11,11 @@ import javax.ws.rs.core.Response;
 
 public class AdminService {
     
+    AdminDAO adminDAO = new AdminDAO();
+    
+    public AdminService(){
+        this.adminDAO = new AdminDAO();
+    }
     
     
 }

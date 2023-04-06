@@ -30,17 +30,10 @@
             </div>
             
             <div>
-                <label for="sex">Sex:</label>
-                
-                <select id="sex" name="sex" required>
-                    
-                    <option value="">Select</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-                
+                <label for="dob">DOB:</label>
+                <input type="date" id="dob" name="dob" required="">
             </div>
-            
+                        
             <div>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
@@ -49,11 +42,6 @@
             <div>
                 <label for="mobile-number">Mobile Number:</label>
                 <input type="tel" id="mobile-number" name="mobile-number" required>
-            </div>
-            
-            <div>
-                <label for="home-number">Home Number:</label>
-                <input type="tel" id="home-number" name="home-number">
             </div>
             
             <div>
@@ -72,7 +60,7 @@
             </div>
             
             
-            <button type="submit">Submit</button>
+            <button type="submit">Submit</button><br>
             
         </form>
         
