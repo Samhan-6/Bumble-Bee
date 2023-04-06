@@ -1,10 +1,15 @@
 package com.webapp.bumble.bee.model;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
 public class Admin {
     
     private int adminId;
     private String username;
     private String password;
+    private Connection connection;
     
     public Admin(){
         this.adminId = 0;
@@ -42,6 +47,6 @@ public class Admin {
         this.password = password;
     }
     
-    
+
     
 }

@@ -4,6 +4,7 @@ import com.webapp.bumble.bee.service.UserService;
 import com.webapp.bumble.bee.model.User;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -21,6 +22,8 @@ import org.apache.http.HttpStatus;
 
 public class RegisterServlet extends HttpServlet {
     
+    
+    /*
     private UserService userService = new UserService();
     private String requestBody;
     
@@ -69,6 +72,34 @@ public class RegisterServlet extends HttpServlet {
         }
 
     }
+*/
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        
+        // Retrieve the data from the request
+        String name = request.getParameter("name");
+        String email = request.getParameter("email");
+        String password = request.getParameter("password");
+        
+        // TODO: Add validation for the data
+        
+        // Create a response message
+        String message = "Registration successful!";
+        
+        // Set the response content type
+        response.setContentType("text/html");
+        
+        // Get a PrintWriter to send the response
+        PrintWriter out = response.getWriter();
+        
+        // Write the response message to the PrintWriter
+        out.println("<html><body>");
+        out.println("<h1>" + message + "</h1>");
+        out.println("</body></html>");
+    }
+
         
 
 }

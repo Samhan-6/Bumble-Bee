@@ -21,7 +21,7 @@
             <h2>Login</h2>
             
         
-            <form>
+            <form action="/api/login" method="post">
         
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>
@@ -51,9 +51,18 @@
                 const username = document.querySelector('#username').value;
                 const password = document.querySelector('#password').value;
                 
-                // TODO: validate username and password
-            
-                alert(`Username: ${username}\nPassword: ${password}`);
+                fetch('/api/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ username, password })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                })
+                .catch(error => console.error(error));      
             });
         </script>
         
